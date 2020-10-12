@@ -1,0 +1,270 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    Overflow-x:  hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+p{
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* ==========main home page css========== */
+
+/* ==========header section css========== */
+.header{
+    width: 100%;
+    background: url("../img/bn.png") top center;
+    background-size: cover;
+}
+.header .menu{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.header .bg-light {
+    background-color: transparent !important;
+}
+.header .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+    margin-right: 25px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+    box-shadow: 0px 0px 16px 2px #ff5f60;
+    color: #fff;
+}
+.header .navbar-light .navbar-nav .active>.nav-link{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    line-height: 26px;
+}
+.header .btn-info {
+    padding: 6px 22px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #ff5f60;
+    border: 1px solid transparent;
+    transition: 1s ease-in-out;
+}
+.header .btn-info:focus, .header .btn-info:hover{
+    color: #ff5f60;
+    background-color: #fff;
+    border: 1px solid #ff5f60;
+    box-shadow: none;
+}
+.header .navbar-nav{
+    margin-right: 40px
+}
+.header .banner{
+    width: 100%;
+    padding: 74px 0px 250px;
+    position: relative;
+}
+.header .banner h2{
+    font-size: 66px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 76px;
+}
+.header .banner p{
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    margin: 30px 0px;
+}
+/* ==========admission section css========== */
+.admission{
+    width: 30%;
+    padding: 50px;
+    background: #ff6d6e;
+    box-shadow: 0px 0px 30px 7px #000;
+    border-radius: 21px;
+    position: absolute;
+    top: 95%;
+    left: 120px;
+}
+.admission h4{
+    font-size: 32px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    line-height: 0.667;
+}
+.admission .divert{
+    width: 42%;
+    height: 2px;
+    background: #fff;
+    margin-left: 135px;
+    margin: 20px 0px 35px 135px;
+}
+.admission p{
+    font-size: 20px;
+    font-family: "Poppins";
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1;
+}
+.admission .main-form{
+    width: 55%;
+    position: relative;
+}
+.admission .main-form .form-control {
+    padding: 22px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.admission .main-form .btn-info {
+    padding: 10px 15px;
+    color: #fff;
+    background-color: #1f3148;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    position: absolute;
+    top: 0px;
+    left: 99%;
+}
+/* ==========text section css========== */
+.text{
+    width: 100%;
+    padding: 50px 50px 0px;
+}
+.text .text-inner{
+    margin-left: 41%;
+}
+.text .text-inner p{
+    font-size: 18px;
+    font-family: "Myriad Pro";
+    color: rgb(34, 34, 34);
+    line-height: 1.667;
+    text-align: center;
+}
+.text .text-inner span{
+    font-size: 16px;
+    font-family: "Poppins";
+    color: rgb(251, 129, 34);
+    font-weight: bold;
+    line-height: 1.875;
+    margin-left: 42%;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: rgb(251, 129, 34) !important;
+}
+/* ==========latest section css========== */
+.latest{
+    width: 100%;
+    padding: 80px 0px 80px;
+    background: url("../img/l-bg.png") top center no-repeat;
+    background-size: cover;
+}
+.latest img{
+    width: 500px;
+}
+.latest h2{
+    font-size: 36px;
+    font-family: "Raleway";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.latest p{
+    font-size: 17px;
+    font-family: "OpenSans";
+    color: rgb(140, 140, 140);
+    line-height: 1.588;
+}
+.latest .btn-info {
+    padding: 6px 30px;
+    border-radius: 28px;
+    color: #fff;
+    background-color: #ff5f60;
+    border: 1px solid transparent;
+    transition: 1s ease-in-out;
+}
+.latest .btn-info:focus, .latest .btn-info:hover{
+    color: #ff5f60;
+    background-color: #fff;
+    border: 1px solid #ff5f60;
+    box-shadow: none;
+}
+.latest .latest-inner{
+    padding: 56% 0px 0px;
+}
+/* ==========middle section css========== */
+.middle{
+    width: 100%;
+    padding: 80px 0px;
+}
+.middle .middle-inner{
+    text-align: center;
+}
+.middle .middle-inner h4{
+    font-size: 25px;
+    font-family: "Raleway";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.middle .middle-inner p{
+    font-size: 17px;
+    font-family: "Poppins";
+    color: rgb(140, 140, 140);
+    line-height: 1.588;
+}
+.middle .middle-inner:hover{
+    opacity: 0.7;
+}
+  /* ==========footer section css========== */
+.footer{
+    width: 100%;
+    padding-top: 20px;
+    background: #6500ff;
+}
+.footer .footer-inner{
+    text-align: left;
+}
+.footer .footer-inner p{
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(201, 201, 201);
+    line-height: 2.143;
+}
+.footer .footer-inner-2 ul{
+    display: block;
+}
+.footer .footer-inner-2 ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.footer .footer-inner-2 ul li a{
+    font-size: 14px;
+    font-family: "Poppins";
+    color: rgb(201, 201, 201);
+    line-height: 2.143;
+}
+.footer .footer-inner-2 ul li a:hover{
+    color: #ff5f60;
+    text-decoration: none;
+}
